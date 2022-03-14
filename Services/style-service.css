@@ -1,0 +1,391 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+navbar { font-family:Verdana !important; }
+
+@media (max-width: 576px) {
+
+}
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+/* NAVBAR FORMATTING */
+#navigation {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.navbar{
+    padding: .8rem;
+}
+
+.navbar-brand img {
+    height: 3.5rem;
+}
+
+.navbar-nav {
+    margin-left: 2rem;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+#mainNavbar .nav-link {
+    font-size: 1.1em !important;
+    font-weight: 450;
+    color: #067658;
+    display: inline-block;
+    position: relative;
+}
+
+#mainNavbar .nav-link:hover {
+    opacity: 1;
+}
+
+#mainNavbar .nav-link::before {
+    transition: 300ms;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: #067658;
+    width: 0%;
+    bottom: 0px;
+}
+
+#mainNavbar .nav-link:hover::before {
+    width: 80%;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1);
+}
+
+.dropdown-item:active {
+    background-color: #067658;
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    margin-top: 0;
+}
+
+body {
+    background: rgba(218, 215, 205,.3);
+    width: 100%;
+}
+
+
+.heading {
+    position: relative;
+    height: 40vh;
+    width: 100%;
+}
+
+.heading::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(../Media/Photo/Capote-rendering.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.heading-box {
+    display: block;
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    /* top: 0; */
+    /* right: 0; */
+    bottom: 0;
+    left: 0;
+}
+
+.heading-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #0b5e47;
+    opacity: .8;
+}
+
+.heading-title {
+    /* color: #067658; */
+    position: absolute;
+    top: 30%;
+    /* left: 50%; */
+    right: 15%;
+    font-weight: 900;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    text-align: right;
+    text-transform: uppercase;
+    /* resize font for mobile */
+}
+
+.heading-title h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+}
+
+.break {
+    height: 2vh;
+    background-color: gray;
+}
+
+.bio {
+    position: relative;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+    width: 95%;
+    display: flex;
+    justify-content: left;
+    margin-left: 0;
+}
+
+.intro {
+    padding-top: 2rem;
+    width: 100%;
+    position: relative;
+    /* top: 0; */
+    left: 5%;
+    margin-top: rem;
+}
+
+.intro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #0b5e47;
+    opacity: .8;
+}
+
+.comp-title h3 {
+    position: relative;
+    color: white;
+    padding-left: 1rem;
+}
+
+.comp-title p {
+    position: relative;
+    color: white;
+    padding-left: 1.5rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+}
+
+.serv-img {
+    background-size: cover;
+    width: auto;
+    /* add media querie to shrink on small screen */
+}
+
+.quote {
+    position: relative;
+    height: 20vh;
+    margin-left: 10%;
+    margin-bottom: 1rem;
+}
+
+.quote::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(../Media/Photo/road.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(0, 0%);
+    opacity: .5;
+}
+
+.quote-box {
+    display: block;
+    position: relative;
+    /* top: 0; */
+    /* right: 0; */
+    color: black;
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+
+.blockquote p {
+    font-weight: 400;
+}
+
+.blockquote-footer {
+    font-weight: 400;
+    color: black;
+    padding-left: 2rem;
+}
+
+
+.quote-box {
+    display: block;
+    position: relative;
+    /* top: 0; */
+    /* right: 0; */
+    color: black;
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+
+.services {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.anchor {
+    display: block;
+    height: 10rem;
+    margin-top: -10rem;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .roadway {
+    position: relative;
+}
+
+.roadway::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(../Media/Photo/Capote-rendering.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .3;
+}
+
+#services-cont {
+    padding-bottom: 0;
+}
+
+#services-intro {
+    color: #5a5a5a;
+    padding-top: 1.5rem;
+    font-size: 4rem;
+    padding-left: 2rem;
+    word-wrap: break-word;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding-left: 3rem;
+    padding-top: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0;
+} */
+
+.my-4 {
+    border-top: 6px solid #067658;
+    width: 40%;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    margin-left: 5rem;
+    opacity: .8;
+}
+
+/* #service {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    color: #202020;
+    font-size: 2rem;
+} */
+
+/* FOOTER FORMATTING */
+#footer-head {
+    height: 3.6rem;
+}
+
+footer {
+    background-color: #dfdfdf;
+    color: #067658;
+    padding-top: 1rem;
+}
+hr.light {
+    border-top: 1px solid #067658;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+@media (min-width:1200px) {
+    .heading {
+        height: 50vh;
+    }
+    .heading-box {
+        height: 40%;        
+    }
+    .container-fluid {
+        max-width: 1200px;
+    }
+}
+
+@media (min-width:1400px) {
+    .container-fluid {
+        max-width: 1300px;
+    }
+}
+
+@media (max-width:992px) {
+    .heading-box {
+        width: 50%;
+        height: 40%;
+    }
+}
+
+@media (max-width:576px) {
+    .heading-box {
+        width: 100%;
+        height: 40%;
+    }
+}
+

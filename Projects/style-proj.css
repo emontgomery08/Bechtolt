@@ -271,7 +271,7 @@ hr.light {
 /* MEDIA QUERIES */
 
 @media (min-width: 576px) {
-    .container {
+    .container-fluid {
         max-width: 540px;
     }
     
@@ -292,7 +292,7 @@ hr.light {
 }
 
 @media (min-width: 768px) {
-    .container {
+    .container-fluid {
         max-width: 740px;
     }
     
@@ -303,14 +303,14 @@ hr.light {
 }
 
 @media (min-width: 992px) {
-    .container {
+    .container-fluid {
         max-width: 960px;
     }
 
 }
 
 @media (min-width: 1200px) {
-    .container {
+    .container-fluid {
         max-width: 1125px;
     }
     .heading {

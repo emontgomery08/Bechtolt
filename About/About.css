@@ -4,13 +4,13 @@ body {
 
 navbar { font-family:Verdana !important; }
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
 
 }
 
 @media (max-width: 576px) {
 
-}
+} */
 
 [class*="col-"] {
     padding: 1rem;
@@ -228,6 +228,11 @@ body {
 }
 
 /* FOOTER FORMATTING */
+.footer {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 #footer-head {
     height: 3.6rem;
 }
